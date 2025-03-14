@@ -5,9 +5,14 @@ Instructions to use Canas to receive LoRa packets.
 Canas can cancel the logical channel interference to receive concurrent logical channels.
 
 ## Folders: 
-filter - coe of digital LP filters (bandwidth 125kHz~500kHz).
 
-input - two data traces of raw signal.
+Matlab: the matlab-implementation of Canas
+  filter - coe of digital LP filters (bandwidth 125kHz~500kHz).
+  input - two data traces of raw signal.
+
+gr-lora-ChannelS: a sample configuration project of the USRP to collect the raw signal.
+
+NodeConfig: a sample configuration project for the LoRa node in our testbed (i.e., SX1276 + Arduino Uno)
 
 ## Key Functions: 
 
