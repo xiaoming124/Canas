@@ -37,7 +37,11 @@ Open the "Matlab" folder, and run two main files, the spectrum and amplitude of 
 
 main_singlePacket.m - cancel the signal of a single packet. 
 
-main_concurrentPacket.m - receive two packets concurrently and cancel the strong one before receiving the weak one. Case 1: decode the weak packet directly from the Rx signal; Case 2: decode the weak packet after canceling the strong packet. The Symbol Error Rate (SER) of two cases is displayed in the command window. 
+main_concurrentPacket.m - receive two packets concurrently and cancel the strong one before receiving the weak one. 
+
+* Case 1: decode the weak packet directly from the Rx signal; 
+
+* Case 2: decode the weak packet after canceling the strong packet. The Symbol Error Rate (SER) of two cases is displayed in the command window. 
 
 ## To run and evaluate XGate on your own testbed
 
