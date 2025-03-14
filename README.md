@@ -11,7 +11,7 @@ Matlab: the matlab-implementation of Canas
 * filter - coe of digital LP filters (bandwidth 125kHz~500kHz).
 * input - two data traces of raw signal.
 
-gr-lora-ChannelS: a sample configuration project of the USRP to collect the raw signal.
+gr-lora-ChannelS: a sample configuration project of the USRP to collect the raw signal (based on the open source gr-lora project).
 
 NodeConfig: a sample configuration project for the LoRa node in our testbed (i.e., SX1276 + Arduino Uno)
 
