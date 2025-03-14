@@ -7,8 +7,9 @@ Canas can cancel the logical channel interference to receive concurrent logical 
 ## Folders: 
 
 Matlab: the matlab-implementation of Canas
-  filter - coe of digital LP filters (bandwidth 125kHz~500kHz).
-  input - two data traces of raw signal.
+
+* filter - coe of digital LP filters (bandwidth 125kHz~500kHz).
+* input - two data traces of raw signal.
 
 gr-lora-ChannelS: a sample configuration project of the USRP to collect the raw signal.
 
