@@ -55,3 +55,20 @@ Pre-process and synthesize the data traces:
 1. Extract the ground truth files of the modulated symbols (e.g., the '.mat' files in the 'input' folder). Receive the LoRa packet individually using standard LoRa demodulators, and we can get the results.
 2. Normalize the packet amplitude by modifying the Rx gain in USRP or other factors.
 3. Select multiple data traces and add them up with random time offsets to emulate large-scale network traffic.
+ 
+## Citation
+
+```
+@inbook{yu2025lora,
+author = {Yu, Shiming and Zhang, Ziyue and Xia, Xianjin and Zheng, Yuanqing and Wang, Jiliang},
+title = {Are LoRa Logical Channels Really Orthogonal? Practically Orthogonalizing Massive Logical Channels},
+year = {2025},
+isbn = {9798400714535},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3711875.3729125},
+abstract = {LoRaWANs are envisioned to connect billions of IoT devices through thousands of physically overlapping yet logically orthogonal channels (termed logical channels). These logical channels hold significant potential for enabling highly concurrent scalable IoT connectivity. Large-scale deployments however face strong interference between logical channels. This practical issue has been largely overlooked by existing works but becomes increasingly prominent as LoRaWAN scales up. To address this issue, we introduce Canas, an innovative gateway design that is poised to orthogonalize the logical channels by eliminating mutual interference. To this end, Canas develops a series of novel solutions to accurately extract the meta-information of individual ultra-weak LoRa signals from the received overlapping channels. The meta-information is then leveraged to accurately reconstruct and subtract the LoRa signals over thousands of logical channels iteratively. Real-world evaluations demonstrate that Canas can enhance concurrent transmissions across overlapping logical channels by 2.3\texttimes{} compared to the best known related works.},
+booktitle = {Proceedings of the 23rd Annual International Conference on Mobile Systems, Applications and Services},
+pages = {56–69},
+numpages = {14}
+}
